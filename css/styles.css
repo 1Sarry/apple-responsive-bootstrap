@@ -2,6 +2,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+html{
+  font-size: 62.5%; /*1rem = 10px*/
+}
 a {
   color: #06c;
 }
@@ -16,6 +19,16 @@ img {
 }
 .grey {
   color: #86868b;
+}
+/* h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+h4{
+  font-size: 20px;
+} */
+p{
+  margin-bottom: 0;
 }
 .top-50 {
   margin-top: 50px;
@@ -146,4 +159,126 @@ img {
   .footer-links-terms {
     margin-top: 10px;
   }
+}
+
+
+
+/* Section One - banner */
+
+
+  .fa-color{
+  color: #2997ff;
+}
+
+
+.banner-white{
+  background-color: #fafafa;
+}
+.intro{
+  font-size: 14px;
+}
+@media (max-width: 1068px){
+  .intro{
+    font-size: 13px;
+  }
+}
+@media (max-width: 734px){
+  .intro{
+    font-size: 12px;
+  }
+}
+
+/** Headline**/
+
+.headline{
+  font-size: 56px;
+  font-weight: 600;
+}
+@media (max-width: 1068px){
+  .headline{
+    font-size: 48px;
+  }
+}
+@media (max-width: 734px){
+  .headline{
+    font-size: 32px;
+  }
+}
+
+/** Subheadline**/
+
+.subheadline{
+  font-size: 28px;
+  font-weight: 400;
+}
+@media (max-width: 1068px){
+  .subheadline{
+    font-size: 24px;
+  }
+}
+@media (max-width: 734px){
+  .subheadline{
+    font-size: 19px;
+  }
+}
+.links a{
+  font-size: 21px;
+}
+@media (max-width: 1068px){
+  .links a{
+    font-size: 19px;
+  }
+}
+@media (max-width: 734px){
+  .links a{
+    font-size: 17px;
+  }
+}
+
+/* Banner Second - iphone-11*/
+.banner-second{
+  background-color: #000;
+}
+.headline-white{
+  color: #f5f5f7;
+}
+.subheadline-white{
+  color: #f5f5f7;
+}
+
+.subheadline-small{
+  font-size: 18px;
+  font-weight: 200;
+  color: #f5f5f7;
+}
+.subheadline-small-dark{
+  color: black;
+}
+@media (max-width: 1068px){
+  .subheadline-small{
+    font-size: 16px;
+  }
+
+  @media (max-width: 734px){
+    .subheadline-small{
+      font-size: 14px;
+    }
+  }}
+  .banner-img-iphone-11 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+  }
+  /***** Grid Columns*****/
+  .row{
+    margin: 0;
+    padding: 0;
+    row-gap: 10px;
+  }
+  .columns{
+    background-color: #fafafa;
+  }
+.colum-dark{
+  background-color: #000;
 }
