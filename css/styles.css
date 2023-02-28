@@ -222,16 +222,16 @@ p{
   }
 }
 .links a{
-  font-size: 21px;
+  font-size: 18px;
 }
 @media (max-width: 1068px){
   .links a{
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 @media (max-width: 734px){
   .links a{
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -264,12 +264,7 @@ p{
       font-size: 14px;
     }
   }}
-  .banner-img-iphone-11 img{
-    width: 100%;
-    object-fit: cover;
-    object-position: bottom;
 
-  }
   /***** Grid Columns*****/
   .row{
     margin: 0;
@@ -278,7 +273,19 @@ p{
   }
   .columns{
     background-color: #fafafa;
+    height: 100%;
   }
-.colum-dark{
+
+/* .column-tv{
+  background-image: url(/images/home/apple-tv-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.column-dark{
   background-color: #000;
+}
+.tv-servant-logo img{
+  object-position: center;
+
 }
