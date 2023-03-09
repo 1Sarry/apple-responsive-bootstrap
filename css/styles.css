@@ -279,6 +279,7 @@ p{
     padding: 0;
     row-gap: 10px;
     column-gap: 10px;
+    flex-wrap: nowrap;
   }
   .columns{
     background-color: #fafafa;
@@ -300,11 +301,19 @@ p{
   background-position: center;
   background-repeat: no-repeat;  
 }
+
+.tv-contents{
+  height: 100%;
+}
 .column-buds{
   background-image: url(/images/home/air-pods.jpg);
   background-position: bottom;
   /* background-size: cover; */
   background-repeat: no-repeat;
+}
+.column-ipod{
+  background-image: url(/images/home/new-ipad.jpg);
+  background-position: bottom;
 }
 .column-dark{
   background-color: #000;
